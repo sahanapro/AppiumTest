@@ -22,7 +22,7 @@ Activate Developer option, enable USB debgging mode, connect the device to ADB(A
 ### Java and IDE Set Up
 Download Java JDK and set enviroment variable. Download IntelliJ IDEA and create new project
 
-# TODO
+## TODO
 * Implement BDD testcases using Cucumber
 * Implement parallel testing using Appium Grid
 
