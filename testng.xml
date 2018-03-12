@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test-suite">
+  <test name="CoreTest">
+    <classes>
+      <class name="TestBase">
+        <methods>
+          <include name="clickACityNetwrok"/>
+          <include name="verifyStationName"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
