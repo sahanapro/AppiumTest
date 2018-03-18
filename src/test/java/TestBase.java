@@ -23,6 +23,7 @@ public class TestBase {
   protected AndroidDriver driver;
   protected StartPage start;
   protected AllStationPage station;
+  protected FavoritesPage favorite;
 
   @BeforeTest
   public void base() {
@@ -67,6 +68,14 @@ public class TestBase {
     station.requestBikeDetails();
     station.getDetailsOfParticularStation();
     station.clickSearchButton();
+
+  }
+
+  @Test(priority = 3)
+  public void verifyFavorites(){
+    favorite=new FavoritesPage(driver);
+    favorite.addFavouriteStation();
+
   }
 
   @AfterClass
